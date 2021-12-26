@@ -3,16 +3,18 @@
 	"tasks": [
 		{
 			"type": "shell",
-			"label": "task g++",   //修改此项
+			"label": "task g++", //修改此项
 			"command": "D:\\mingw-w64\\mingw64\\bin\\g++.exe",
 			"args": [
 				"-g",
+				"-std=c++11",
 				"${file}",
+				// "${fileDirname}\\*.cpp",
 				"-o",
 				"${fileDirname}\\${fileBasenameNoExtension}.exe"
 			],
 			"options": {
-				"cwd": "D:\\mingw-w64\\mingw64\\bin"   // 注意路径
+				"cwd": "D:\\mingw-w64\\mingw64\\bin" // 注意路径
 			},
 			"problemMatcher": [
 				"$gcc"

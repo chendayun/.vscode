@@ -1,0 +1,9 @@
+ASSUME CS:CODE
+CODE SEGMENT
+	     MOV AX,2
+	     ADD AX,ax
+
+	     MOV AX,4C00H
+	     INT 21H
+CODE ENDS
+ENDC

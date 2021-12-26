@@ -8,6 +8,7 @@
                 "-g",
                 "${file}",
                 "-o",
+                // "${fileDirname}/*.c",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
             "options": {

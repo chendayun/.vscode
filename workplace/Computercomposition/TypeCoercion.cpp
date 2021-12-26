@@ -1,9 +1,8 @@
-#include <bits/stdc++.h>
+#include <iostream>
 
 using namespace std;
 
 int main()
 {
-    int a = 90;
-    printf("%d", a);
+    cout << "printf" << endl;
 }
